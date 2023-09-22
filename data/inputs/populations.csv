@@ -1,0 +1,21 @@
+﻿population_name,population_description,demographic_category,algorithm_metrics
+adult,,,"1,2,3,4,5,6,7,8,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,116,117,118,119,120,121,122,123,124,125,126,127"
+pediatric,,,
+postpartum people,,,"9,10,11,12,13,14,15,16"
+laboring people,,,"17,18,19,20,21,22,23,24,25,26"
+Female,,Sex,"51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74"
+Male,,Sex,"75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98"
+Unknown sex,,Sex,115
+Asian,,Race/ethnicity,"99,107"
+Black or African American,,,"100,108"
+Native American,,Race/ethnicity,"101,109"
+Pacific Islander,,Race/ethnicity,"102,111"
+White,,Race/ethnicity,"105,113"
+Other race,,Race/ethnicity,"103,110"
+Unknown race,,Race/ethnicity,"104,112"
+Over 40 years,,Age,"106,114"
+Primary care patients,"Patients recruited or presenting at a primary care clinic or other primary care setting
+",Healthcare setting,"128,129,130,131"
+Ophthalmology patients,"Patients recruited or presenting at am ophthalmology clinic or other ophthalmology-specific setting
+",Healthcare setting,"132,132,132,132"
+,,,

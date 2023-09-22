@@ -1,0 +1,35 @@
+﻿observation_name,observation_type,observation_description,algorithm_input,algorithm_output,measured performance
+Electroencephalogram (EEG),Physiological measurement,,EnsoSleep,,
+Electrocardiogram (ECG),Physiological measurement,,EnsoSleep,,
+Electro-oculogram (EOG),Physiological measurement,,EnsoSleep,,
+Electromyogram (EMG),Physiological measurement,,EnsoSleep,,
+Actigraphy,Physiological measurement,,EnsoSleep,,
+Airflow,Physiological measurement,,EnsoSleep,,
+Oximetry,Physiological measurement,,EnsoSleep,,
+Saturation of Peripheral Oxygen (SpO2),Physiological measurement,,EnsoSleep,,
+Respiratory Inductance Plethysmogram (RIP),Physiological measurement,,EnsoSleep,,
+Polyvinylidene Flouride (PVDF),Physiological measurement,,EnsoSleep,,
+Photoplethysmogram (PPG),Physiological measurement,,EnsoSleep,,
+Pulse Rate,Physiological measurement,,EnsoSleep,,
+Snoring Microphone,Physiological measurement,,EnsoSleep,,
+Esophogeal Manometry,Physiological measurement,,EnsoSleep,,
+Sleep-Wake staging,Physiological measurement,,,EnsoSleep,"1,2,3,7"
+Total Sleep Time,Physiological measurement,,,EnsoSleep,"4,5,6,8"
+Medical record data,Medical record data,,"PPD risk prediction model (Zhang et al),PPD risk prediction model (Munk-Olsen et al),VBAC calculator (including race),VBAC calculator (excluding race)",,
+Diagnosis of postpartum depression (1 year after childbirth),Medical record data,,,PPD risk prediction model (Zhang et al),"9,10"
+Recorded contact to a psychiatric treatment facility or redeemed antidepressant prescriptions (6 months after childbirth),Medical record data,,,PPD risk prediction model (Munk-Olsen et al),"11,12,13,14,15,16"
+Postpartum complications,Medical record data,,,"VBAC calculator (including race),VBAC calculator (excluding race)",
+Successful vaginal delivery,Medical record data,,,,"20,19,17,18,21,22,23,24,25,26"
+Abnormal Hematrocrit lab value,Physiological measurement,,,,"27,39,51,63,75,87,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115"
+Abnormal Hemoglobin lab value,Physiological measurement,,,,"28,40,52,64,76,88"
+Abnormal Platelet lab value,Physiological measurement,,,,"29,41,53,65,77,89"
+Abnormal White blood cell lab value,Physiological measurement,,,,"30,42,54,66,78,90"
+Abnormal Albumin lab value,Physiological measurement,,,,"31,43,55,67,79,91"
+Abnormal Blood urea nitrogen lab value,Physiological measurement,,,,"32,44,56,68,80,92"
+Abnormal Calcium lab value,Physiological measurement,,,,"33,45,57,69,81,93"
+Abnormal Carbon dioxide lab value,Physiological measurement,,,,"34,46,58,70,82,94"
+Abnormal Creatinine lab value,Physiological measurement,,,,"35,47,59,71,83,95"
+Abnormal Potassium lab value,Physiological measurement,,,,"36,48,60,72,84,96"
+Abnormal Sodium lab value,Physiological measurement,,,,"37,49,61,73,85,97"
+Abonrmal Magnesium lab value,Physiological measurement,,,,"38,50,62,74,86,98"
+Diagnosis of more than mild diabetic retinopathy (mtmDR),Medical record data,,,,"116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,132,132,132"
