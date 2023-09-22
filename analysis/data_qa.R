@@ -47,8 +47,8 @@ observations <- read.csv("data/inputs/observations.csv", header = TRUE)
 ## Some fields are included in Airtable but we don't actually want or need them,
 ## they are dropped as part of this step
 
-if(any(c("references", "performance.metrics", "inputs", "outputs") %in% names(algorithms))){
-  algorithms <- algorithms[,-which(names(algorithms) %in% c("references", "performance.metrics", "inputs", "outputs"))]
+if(any(c("references_airtable", "performance.metrics", "inputs", "outputs") %in% names(algorithms))){
+  algorithms <- algorithms[,-which(names(algorithms) %in% c("references_airtable", "performance.metrics", "inputs", "outputs"))]
 }
 
 if(any(c("algorithm_metrics") %in% names(metrics))){
@@ -59,8 +59,8 @@ if(any(c("algorithm_metrics") %in% names(populations))){
   populations <- populations[,-which(names(populations) == "algorithm_metrics")]
 }
 
-if(any(c("measured.performance") %in% names(observations))){
-  observations <- observations[,-which(names(observations) == "measured.performance")]
+if(any(c("measured.performance", "algorithm_input", "algorithm_output") %in% names(observations))){
+  observations <- observations[,-which(names(observations) %in% c("measured.performance", "algorithm_input", "algorithm_output"))]
 }
 
 #############################################
@@ -83,6 +83,6 @@ excel_sheets <- list("Algorithms" = algorithms,
                      "Algorithm_metrics" = algorithm_metrics)
 
 ## export worksheet in Excel
-write.xlsx(excel_sheets, file = "data/performance_data.xlsx")
+write.xlsx(excel_sheets, file = "data/Performance data.xlsx")
 
 
