@@ -31,7 +31,7 @@ Abnormal Carbon dioxide lab value,Physiological measurement,Not available (yet),
 Abnormal Creatinine lab value,Physiological measurement,Not available (yet),,Stanford Metabolic panel (Creatinine) model,"35,47,59,71,83,95"
 Abnormal Potassium lab value,Physiological measurement,Not available (yet),,Stanford Metabolic panel (Potassium),"36,48,60,72,84,96"
 Abnormal Sodium lab value,Physiological measurement,Not available (yet),,Stanford Metabolic panel (Sodium) model,"37,49,61,73,85,97"
-Abonrmal Magnesium lab value,Physiological measurement,Not available (yet),,Stanford Magnesium model,"38,50,62,74,86,98"
+Abnormal Magnesium lab value,Physiological measurement,Not available (yet),,Stanford Magnesium model,"38,50,62,74,86,98"
 Diagnosis of more than mild diabetic retinopathy (mtmDR),Medical record data,Not available (yet),,"EyeArt,IDx-DR","116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,15"
 Bone mineral density,Physiological measurement,Not available (yet),,Bone Densitometer,136
 CT scan,Medical imaging,Not available (yet),"Bone Densitometer,BriefCase for iPE Triage",,
