@@ -37,3 +37,8 @@ Bone mineral density,Physiological measurement,Not available (yet),,Bone Densito
 CT scan,Medical imaging,Not available (yet),"Bone Densitometer,BriefCase for iPE Triage",,
 Incidental Pulmonary Embolism (iPE) pathology,Specific diagnosis or clinical finding,Not available (yet),,BriefCase for iPE Triage,"137,138,139,140,141,142"
 Retinal fundus images,Medical imaging,Not available (yet),"EyeArt,IDx-DR",,
+Inpatient delerium,Specific diagnosis or clinical finding,"Whether or not the individual developed delirium during hospitalization as assessed based on either physician diagnosis or reviewer assessments (e.g., retrospective chart review)",,AWOL Tool,"143,144,145,146,147,148,149,150,151,152,153"
+Age >= 80,Demographics,Whether or not the patient is over the age of 80 years,AWOL Tool,,
+Inability to spell WORLD backwards,Patient reported outcome,Whether or not the patient is able to spell the word WORLD backwards when prompted,AWOL Tool,,
+Disorientation to place,Medical record data,Whether or not the patient appears to nursing or other clinical or research staff to be disoriented,AWOL Tool,,
+Moderate to severe level of illness based on subjective nursing rating,Medical record data,Whether or not the patient appears to nursing or other clinical or research staff to have moderate to severe level of illness (subjective rating),AWOL Tool,,
